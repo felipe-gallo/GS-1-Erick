@@ -233,14 +233,17 @@ void menu() {
 
     limpar();
 
-    printf("=== SISTEMA DA MISSAO ===\n");
+    printf("\n=================================\n");
+    printf("   SISTEMA DA MISSAO ESPACIAL\n");
+    printf("=================================\n");
 
     printf("\n1 - Inserir dados");
     printf("\n2 - Ver status");
     printf("\n3 - Analise completa");
     printf("\n4 - Sair");
 
-    printf("\n\nEscolha: ");
+    printf("\n\n=================================\n");
+    printf("Escolha: ");
 }
 
 int main() {
